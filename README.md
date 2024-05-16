@@ -1,1 +1,3 @@
-# Run a local model to retreive data from webpages (RAG)
+# Local Llama3 - RAG Implementation
+
+### Takes a webpage as URL to add as context for user queries
