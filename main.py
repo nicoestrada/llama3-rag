@@ -6,10 +6,9 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 
 st.set_page_config(
-    page_title="Local AI - RAG Implementation",
-    page_icon="",
+    page_title="Local LLM - RAG Implementation",
 )
-st.title("Ask AI - Enter any webpage")
+st.title("Local LLM - RAG Implementation")
 st.caption("This app allows you to chat with a local AI model (Llama3-8b) about a webpage using RAG (Retrieval-Augmented Generation), in order to gather relevant information to answer queries from the user")
 
 # Get the webpage URL from the user
